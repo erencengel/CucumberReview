@@ -1,4 +1,4 @@
-@wip3
+
 Feature: Navigation Menu
 
 
@@ -7,7 +7,7 @@ Feature: Navigation Menu
     When the user logged in as "salesManager"
     And the user navigates to "Fleet", "Vehicles"
     Then the title should be "AAAAACar - Entities - System - Car - Entities - System"
-
+  @wip3
   Scenario: Navigating Fleet --> Marketing
     Given the user is on the login page
     When the user logged in as "salesManager"

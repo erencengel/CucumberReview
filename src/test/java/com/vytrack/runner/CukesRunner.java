@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
                 plugin = {"json:target/cucumber.json",
                           "html:target/default-html-reports",
                             "rerun:target/rerun.txt"},
-                tags = "@wip3"
+                tags = "@wip3 or @store"
 )
 
 public class CukesRunner {
