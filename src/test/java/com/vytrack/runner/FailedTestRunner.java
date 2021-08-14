@@ -5,9 +5,8 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/features", //tell location of future files
+@CucumberOptions(features = "@target/rerun.txt", //tell location of future files
         glue = "com/vytrack/step_definitions",     //tell where code is, // check if we have missing part
-        dryRun = false,
         plugin = {"html:target/default-html-reports"}
 )
 public class FailedTestRunner {

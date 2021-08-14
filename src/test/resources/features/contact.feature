@@ -7,7 +7,7 @@ Feature: Contacts page
     |Fleet|
     |Customers|
     |Activities|
-    |System|
+    |Systemm|
 
   @navigation1
   Scenario: login as a given user
